@@ -1,12 +1,12 @@
 import React from 'react';
-import { 
-  Sparkles, 
-  Star, 
-  Truck, 
-  Clock, 
-  ShieldCheck, 
-  ShoppingBag, 
-  Radio, 
+import {
+  Sparkles,
+  Star,
+  Truck,
+  Clock,
+  ShieldCheck,
+  ShoppingBag,
+  Radio,
   MessageCircle,
   Droplets,
   Feather,
@@ -23,10 +23,10 @@ export default function Hero({ onSelectImage }) {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-          
+
           {/* Left Column: Attention Copywriting */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            
+
             {/* Target Audience Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pastel-rose-100 border border-pastel-rose-200 text-pastel-rose-700 text-xs font-bold tracking-wide shadow-sm">
               <Sparkles className="w-3.5 h-3.5 text-pastel-rose-600" />
@@ -73,7 +73,7 @@ export default function Hero({ onSelectImage }) {
 
             {/* Primary Action Buttons */}
             <div className="pt-3 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-              <a 
+              <a
                 href={channels.shopeeStore}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -83,7 +83,7 @@ export default function Hero({ onSelectImage }) {
                 <span>Order di Shopee Star+ (Bisa COD)</span>
               </a>
 
-              <a 
+              <a
                 href={channels.tiktokShop}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -93,7 +93,7 @@ export default function Hero({ onSelectImage }) {
                 <span>Buka TikTok Shop (Keranjang Kuning)</span>
               </a>
 
-              <a 
+              <a
                 href={channels.whatsappCS}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -110,20 +110,20 @@ export default function Hero({ onSelectImage }) {
           {/* Right Column: Real Student Lifestyle Photo */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-sm sm:max-w-md">
-              
+
               {/* Decorative Pastel Frame */}
               <div className="absolute -inset-3 bg-gradient-to-tr from-pastel-rose-200 via-pastel-lavender-200 to-pastel-peach-200 rounded-3xl transform rotate-2 blur-sm"></div>
-              
-              <div 
+
+              <div
                 className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white cursor-pointer group bg-slate-100"
                 onClick={() => onSelectImage('/assets/hero_student.jpg')}
               >
-                <img 
-                  src="/assets/hero_student.jpg" 
-                  alt="Siswi dan mahasiswi membawa ransel TSY Megumi cerah di kampus" 
+                <img
+                  src="/assets/hero_student.jpg"
+                  alt="Siswi dan mahasiswi membawa ransel TSY Megumi cerah di kampus"
                   className="w-full h-[400px] sm:h-[480px] object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
-                
+
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
 
                 <div className="absolute bottom-4 left-4 right-4 text-white">
