@@ -6,8 +6,8 @@ export const liveSchedule = {
       hour: 14,
       minute: 30,
       durationMinutes: 120, // 14:30 - 16:30
-      title: 'Sesi Siang: Spill Real Pict & OOTD Kampus/Sekolah',
-      desc: 'Nonton live review ukuran tas, tes muat laptop/binder, dan spill warna pastel favoritmu.',
+      title: 'Sesi Siang: Try-On Tas & Spill Real Pict OOTD',
+      desc: 'Pulang sekolah atau beres kelas wajib mampir! Bebas request host buat try-on tas, tes muat binder, atau cek warna aslinya.',
       platforms: ['TikTok Live', 'Shopee Live']
     },
     {
@@ -16,15 +16,15 @@ export const liveSchedule = {
       hour: 18,
       minute: 30,
       durationMinutes: 150, // 18:30 - 21:00
-      title: 'Sesi Malam: Flash Sale & Voucher Diskon Live s.d 50%',
-      desc: 'Bebas request coba tas di patung, klaim voucher gratis ongkir XTRA, dan diskon live terbatas.',
+      title: 'Sesi Malam: Flash Sale & Bagi-bagi Voucher Diskon',
+      desc: 'Waktunya checkout paling hemat. Standby buat rebutan flash sale, voucher diskon live, dan bebas minta spill detail tas.',
       platforms: ['TikTok Live', 'Shopee Live']
     }
   ],
   benefits: [
-    'Spill langsung jahitan & ketebalan bahan Parasut JN',
-    'Bisa request tes muat laptop 14 inch / binder kuliah',
-    'Klaim voucher subsidi potongan harga Shopee & TikTok Live',
-    'Konsultasi warna pastel yang cocok dengan seragam / outfit'
+    'Spill detail jahitan konveksi dan ketebalan bahan Parasut JN dari dekat',
+    'Bebas request host buat tes masukin laptop 14 inch atau binder kuliah',
+    'Banjir voucher diskon ekstra dan gratis ongkir khusus penonton live',
+    'Tanya-tanya rekomendasi warna pastel yang paling pas buat OOTD kamu'
   ]
 };

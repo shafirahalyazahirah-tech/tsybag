@@ -6,7 +6,7 @@ export const products = [
     category: 'ransel-sekolah',
     categoryLabel: 'Ransel Mini Sekolah',
     name: 'TSY Megumi Mini Backpack',
-    tag: 'Terlaris 2.754+ Terjual',
+    tag: 'Best Seller 2.754+ Terjual',
     tagVariant: 'pink',
     rating: '4.8 / 5.0 (2.754 Ulasan)',
     ratingScore: 4.8,
@@ -14,19 +14,19 @@ export const products = [
     price: 'Rp 48.000 - Rp 65.000',
     originalPrice: 'Rp 89.000',
     image: '/assets/product_megumi.jpg',
-    desc: 'Model mini backpack terfavorit siswi SMP/SMA dan mahasiswi. Bobot super enteng hanya 250 gram dari bahan Parasut JN tebal halus & tahan cipratan air. Muat buku tulis, tablet 11", mukena, tumbler di saku botol samping, plus bonus gantungan boneka.',
+    desc: 'Mini backpack andalan cewek sekolahan dan mahasiswi. Bobotnya super ringan cuma 250 gram, pakai bahan Parasut JN tebal yang halus dan aman dari cipratan gerimis. Pas banget buat bawa buku tulis, iPad 11 inch, mukena, sampai botol minum kesayangan. Udah dapet bonus gantungan boneka gemas buat OOTD kamu!',
     highlights: [
-      'Bobot Ultra Enteng 250 gram (Bahu bebas pegal)',
-      'Bahan Parasut JN Water-Repellent (Tahan gerimis)',
-      'Muat Tablet 11", Tumbler, Mukena & Buku Catatan',
-      'Bonus Gantungan Boneka Lucu Gratis'
+      'Cuma 250 Gram (Bahu dijamin nggak pegal)',
+      'Parasut JN Premium (Aman dari cipratan gerimis)',
+      'Muat iPad 11", Tumbler, Mukena & Buku Catatan',
+      'Gratis Gantungan Boneka Gemas'
     ],
     specs: [
-      'Bahan: Parasut JN Premium (Tebal, Lembut & Halus)',
-      'Ukuran Real: Panjang 23cm × Lebar 10cm × Tinggi 29cm',
-      'Bobot: Hanya 250 gram (Bahu tidak tertekan)',
-      'Kompartemen: 1 Ruang Utama + 1 Saku Depan + 2 Saku Samping Botol',
-      'Pilihan Warna: Soft Pink, Lilac, Cream, Abu Cerah, Hijau Sage, Hitam'
+      'Material: Parasut JN Premium (Tebal, lembut, dan gampang dibersihkan)',
+      'Dimensi: P 23cm × L 10cm × T 29cm (Ukuran pas, nggak kebesaran)',
+      'Berat: Super Ringan 250 gram (Nyaman dipakai jalan jauh)',
+      'Storage: 1 Ruang Utama lapang, 1 Saku Depan, 2 Saku Botol Minum',
+      'Pilihan Warna Pastel: Soft Pink, Lilac, Cream, Abu Cerah, Hijau Sage, Hitam'
     ],
     colorPalette: [
       { name: 'Soft Pink', hex: '#fda4b8' },
@@ -44,7 +44,7 @@ export const products = [
     category: 'ransel-kuliah',
     categoryLabel: 'Ransel Laptop Kuliah',
     name: 'TSY Zena Campus Laptop Backpack',
-    tag: 'Favorit Kuliah & Laptop 14"',
+    tag: 'Andalan Anak Kampus',
     tagVariant: 'lavender',
     rating: '4.9 / 5.0 (1.200+ Ulasan)',
     ratingScore: 4.9,
@@ -52,19 +52,19 @@ export const products = [
     price: 'Rp 58.000 - Rp 75.000',
     originalPrice: 'Rp 115.000',
     image: '/assets/product_zena.jpg',
-    desc: 'Kapasitas lebih lapang dirancang khusus untuk mahasiswi yang membawa laptop 14 inch, binder B5/A4, dan modul kuliah tebal. Dilengkapi bantalan busa pundak 3-layer anti-pegal dan bahan nilon polyester tahan gerimis.',
+    desc: 'Space lebih lega, khusus didesain buat kamu yang bawaannya banyak buat ngampus. Aman buat masukin laptop 14 inch, binder B5, sampai modul kuliah tebal. Tali pundaknya pakai bantalan busa 3 lapis yang empuk banget, dijamin anti pegal seharian. Bahannya nilon polyester yang kuat dan tahan gerimis.',
     highlights: [
-      'Slot Berbusa Khusus Laptop hingga 14 Inch',
-      'Muat Binder B5/A4 & Modul Kuliah Tebal',
-      'Bantalan Busa Pundak Tebal Ergonomis',
-      'Konstruksi Jahitan Dobel Standar Konveksi Tasik'
+      'Slot Laptop 14 Inch dengan Busa Pengaman',
+      'Space Lega buat Binder B5 & Modul Kuliah Tebal',
+      'Tali Pundak Busa 3 Lapis (Anti Pegal Seharian)',
+      'Jahitan Konveksi Dobel (Kuat & Awet Tahan Banting)'
     ],
     specs: [
-      'Bahan: Nilon Polyester Grade A (Kuat & Water-Repellent)',
-      'Ukuran Real: Panjang 29cm × Lebar 13cm × Tinggi 41cm',
-      'Kapasitas: Slot Laptop 14" Dilapisi Busa Pelindung',
-      'Fitur Khusus: Bantalan Pundak & Punggung Tebal Ergonomis',
-      'Pilihan Warna: Peach Sunset, Pastel Grey, Dusty Rose, Midnight Navy, Black'
+      'Material: Nilon Polyester Grade A (Kuat, tebal, dan tahan cipratan air)',
+      'Dimensi: P 29cm × L 13cm × T 41cm',
+      'Kapasitas: Ruang utama luas + Slot Laptop 14" dilapisi busa tebal',
+      'Fitur Khusus: Bantalan punggung dan pundak ekstra empuk ergonomis',
+      'Warna Estetik: Peach Sunset, Pastel Grey, Dusty Rose, Midnight Navy, Black'
     ],
     colorPalette: [
       { name: 'Peach Sunset', hex: '#fdba74' },
@@ -82,7 +82,7 @@ export const products = [
     category: 'sling-bag',
     categoryLabel: 'Sling Bag OOTD Hangout',
     name: 'TSY Aruna Chic Shoulder Bag',
-    tag: 'OOTD Hangout Kafe',
+    tag: 'Wajib Punya Buat Hangout',
     tagVariant: 'peach',
     rating: '4.8 / 5.0 (980+ Ulasan)',
     ratingScore: 4.8,
@@ -90,18 +90,18 @@ export const products = [
     price: 'Rp 39.000 - Rp 49.000',
     originalPrice: 'Rp 79.000',
     image: '/assets/product_aruna.jpg',
-    desc: 'Tas selempang dan bahu ala Korean Aesthetic yang manis. Material kulit sintetis premium bertekstur lembut, fleksibel, dan mudah dibersihkan. Pas untuk membawa HP, dompet, kunci, dan pouch makeup saat nongkrong santai sehabis kelas.',
+    desc: 'Tas selempang ala Korean style yang super estetik. Pakai bahan kulit sintetis premium yang teksturnya lembut, lentur, dan gampang banget dilap kalau kotor. Ukurannya pas buat bawa HP, dompet, printilan makeup, dan kunci. Cocok banget buat nemenin OOTD kamu pas nongkrong di kafe beres ngampus.',
     highlights: [
-      'Desain Manis Korean Chic Aesthetic',
-      'Kulit Sintetis Lembut & Sangat Mudah Dibersihkan',
-      'Pas Membawa Smartphone, Dompet & Makeup Pouch',
-      'Tali Bahu Fleksibel Nyaman Digunakan'
+      'Desain Manis Ala Korean Chic Aesthetic',
+      'Kulit Sintetis Premium (Tekstur Lembut & Gampang Dibersihkan)',
+      'Ukuran Pas buat HP, Dompet, Liptint & Kunci',
+      'Tali Fleksibel (Bisa Bahu atau Selempang)'
     ],
     specs: [
-      'Bahan: Kulit Sintetis Premium Soft Texture',
-      'Ukuran Real: Panjang 24cm × Lebar 7cm × Tinggi 15cm',
-      'Kapasitas: HP Semua Ukuran, Dompet Lipat, Liptint, Kunci',
-      'Aksen: Zipper Logam Halus Anti Macet',
+      'Material: Kulit Sintetis Premium Soft Texture (Lentur, tidak kaku)',
+      'Dimensi: P 24cm × L 7cm × T 15cm',
+      'Kapasitas: Masuk HP ukuran besar, dompet lipat, dan pouch makeup kecil',
+      'Hardware: Resleting logam premium (Lancar anti macet)',
       'Pilihan Warna: Cream Ivory, Butter Milk, Dusty Pink, Terracotta, Hitam'
     ],
     colorPalette: [
@@ -119,6 +119,6 @@ export const products = [
 export const productCategories = [
   { id: 'all', label: 'Semua Koleksi' },
   { id: 'ransel-kuliah', label: 'Ransel Laptop Kuliah' },
-  { id: 'ransel-sekolah', label: 'Ransel Mini Sekolah (250g)' },
-  { id: 'sling-bag', label: 'Sling Bag OOTD Hangout' }
+  { id: 'ransel-sekolah', label: 'Ransel Mini Sekolah' },
+  { id: 'sling-bag', label: 'Sling Bag OOTD' }
 ];

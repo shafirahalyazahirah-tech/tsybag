@@ -7,7 +7,7 @@ export const reviews = [
     rating: 5,
     date: '3 hari lalu',
     productBought: 'TSY Megumi Mini Backpack (Dusty Pink)',
-    content: 'Bahan Parasut JN-nya beneran lembut dan tebal. Yang paling aku suka bobot tasnya enteng banget cuma 250 gram, jadi pas diisi buku catatan dan tablet pundak nggak berasa pegal sama sekali saat jalan keliling gedung fakultas. Jahitan konveksinya sangat rapi untuk harga semurah ini!',
+    content: 'Suka banget sama bahan Parasut JN-nya, tebal tapi lembut. Paling ngebantu sih tasnya enteng parah cuma 250 gram! Diisi iPad sama binder buat pindah-pindah kelas di kampus pundak tetep aman nggak pegal. Jahitan konveksinya rapi banget buat harga segini.',
     verified: true
   },
   {
@@ -18,7 +18,7 @@ export const reviews = [
     rating: 5,
     date: '1 minggu lalu',
     productBought: 'TSY Megumi Mini Backpack (Lilac Pastel)',
-    content: 'Warna pastel lilac-nya gemas banget, persis sama foto real pict dan dapet bonus gantungan boneka lucu. Kemarin sempat kehujanan gerimis sepulang sekolah, airnya cuma nempel butiran seperti daun talas dan bagian dalam tetap kering aman.',
+    content: 'Warna lilac pastelnya super gemas, real pict banget plus dapet gantungan boneka lucu! Kemarin sempat kehujanan pas balik sekolah, untungnya bahan tasnya tahan cipratan air. Gerimis cuma nempel di luar dan buku cetak di dalam tetep aman nggak basah.',
     verified: true
   },
   {
@@ -29,7 +29,7 @@ export const reviews = [
     rating: 5,
     date: '2 minggu lalu',
     productBought: 'TSY Zena Campus Laptop Backpack (Peach Sunset)',
-    content: 'Order jam 2 siang beneran langsung dikirim hari itu juga sesuai janjinya! Pengiriman ke Yogya cuma 2 hari. Laptop 14 inch saya masuk pas di slot busa pelindungnya. Bisa bayar COD jadi praktis banget tanpa harus repot transfer ATM.',
+    content: 'Checkout jam 2 siang eh beneran langsung dikirim hari itu juga! Sampai Jogja cuma 2 harian. Laptop 14 inch aku masuk pas dan aman karena ada slot busanya. Plus bisa COD, ngebantu banget buat anak kosan yang mager keluar buat transfer.',
     verified: true
   },
   {
@@ -40,7 +40,7 @@ export const reviews = [
     rating: 5,
     date: '2 minggu lalu',
     productBought: 'TSY Aruna Chic Shoulder Bag (Butter Milk)',
-    content: 'Bangga banget tas buatan pengrajin lokal Tasik kualitasnya sebagus ini! Modelnya manis ala Korean aesthetic, pas dipakai nongkrong kafe atau les sore. Temen-temen sekelas pada nanya beli dimana!',
+    content: 'Bangga banget tas lokal Tasik kualitasnya bisa se-aesthetic ini! Modelnya korean look banget, cakep pas dipakai buat les sore atau nongkrong di kafe bareng temen. Sampai banyak temen sekelas yang kepo nanyain beli tasnya di mana.',
     verified: true
   }
 ];

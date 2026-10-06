@@ -37,22 +37,22 @@ export function useLiveStatus() {
 
       if (currentMinuteOfDay >= session1Start && currentMinuteOfDay < session1End) {
         isLive = true;
-        activeTitle = 'Sesi Siang (14.30 - 16.30 WIB)';
+        activeTitle = 'Sesi Siang (Try-On & Spill Tas)';
       } else if (currentMinuteOfDay >= session2Start && currentMinuteOfDay < session2End) {
         isLive = true;
-        activeTitle = 'Sesi Malam Flash Sale (18.30 - 21.00 WIB)';
+        activeTitle = 'Sesi Malam (Flash Sale & Bagi Voucher)';
       }
 
       if (!isLive) {
         if (currentMinuteOfDay < session1Start) {
           nextTargetMinute = session1Start;
-          nextLabel = 'Hari Ini 14.30 WIB (Sesi Siang)';
+          nextLabel = '14.30 WIB Nanti (Sesi Siang)';
         } else if (currentMinuteOfDay < session2Start) {
           nextTargetMinute = session2Start;
-          nextLabel = 'Hari Ini 18.30 WIB (Sesi Malam)';
+          nextLabel = '18.30 WIB Nanti Malam (Sesi Flash Sale)';
         } else {
           nextTargetMinute = 24 * 60 + session1Start;
-          nextLabel = 'Besok 14.30 WIB (Sesi Siang)';
+          nextLabel = '14.30 WIB Besok (Sesi Siang)';
         }
 
         const diffMinutes = nextTargetMinute - currentMinuteOfDay - 1;
@@ -73,7 +73,7 @@ export function useLiveStatus() {
           isLiveNow: true,
           currentSessionTitle: activeTitle,
           nextSessionTime: '',
-          countdownText: 'Sedang Siaran Langsung',
+          countdownText: 'Lagi Live Sekarang',
           wibTimeStr: `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')} WIB`
         });
       }

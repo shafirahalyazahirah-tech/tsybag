@@ -1,49 +1,49 @@
 export const capacityItems = [
   {
     title: 'Tablet / iPad 11"',
-    subtitle: 'Pas & aman di seri Megumi',
+    subtitle: 'Masuk pas & aman di TSY Megumi',
     icon: 'Tablet',
     category: 'Gadget'
   },
   {
     title: 'Laptop 14 Inch',
-    subtitle: 'Slot busa pelindung seri Zena',
+    subtitle: 'Ada slot busa empuk di TSY Zena',
     icon: 'Laptop',
     category: 'Kuliah'
   },
   {
-    title: 'Binder B5 & Catatan',
-    subtitle: 'Muat rapi tanpa terlipat',
+    title: 'Binder B5 & Buku Cetak',
+    subtitle: 'Muat banyak tanpa takut lecek',
     icon: 'BookOpen',
     category: 'Akademik'
   },
   {
     title: 'Tumbler / Botol Minum',
-    subtitle: 'Saku samping elastis kiri-kanan',
+    subtitle: 'Saku kanan-kiri elastis anti jatuh',
     icon: 'Droplet',
     category: 'Harian'
   },
   {
     title: 'Pouch Skincare & Liptint',
-    subtitle: 'Makeup aman tertata rapi',
+    subtitle: 'Tersusun rapi siap touch-up',
     icon: 'Sparkles',
     category: 'Beauty'
   },
   {
     title: 'Payung Lipat Mini',
-    subtitle: 'Terselip rapi di kompartemen samping',
+    subtitle: 'Siap sedia pas musim hujan',
     icon: 'CloudRain',
     category: 'Cuaca'
   },
   {
-    title: 'Smartphone & Powerbank',
-    subtitle: 'Akses cepat di saku depan resleting',
+    title: 'HP & Powerbank',
+    subtitle: 'Akses gampang di saku depan',
     icon: 'Smartphone',
     category: 'Essential'
   },
   {
-    title: 'Free Boneka Lucu',
-    subtitle: 'Bonus gantungan estetik di setiap ransel',
+    title: 'Free Boneka Gemas',
+    subtitle: 'Bonus gantungan pelengkap OOTD',
     icon: 'Gift',
     category: 'Bonus'
   }
@@ -51,27 +51,27 @@ export const capacityItems = [
 
 export const coreFeatures = [
   {
-    title: 'Bobot Enteng 250 Gram',
-    desc: 'Hanya seringan apel. Tulang bahu tidak sakit dan pundak bebas pegal meski membawa perlengkapan seharian.',
+    title: 'Super Ringan 250 Gram',
+    desc: 'Nggak nyampe berat apel! Pundak auto bebas pegal walau tas dipakai keliling kampus atau sekolah seharian.',
     icon: 'Feather',
-    tag: 'Anti Pegal'
+    tag: 'Bahu Anti Pegal'
   },
   {
-    title: 'Parasut JN Water-Repellent',
-    desc: 'Serat parasut rapat tebal berkualitas tinggi. Percikan gerimis hujan langsung meluncur seperti di atas daun talas.',
+    title: 'Bahan Parasut JN (Anti Air)',
+    desc: 'Material tebal tapi halus. Kalau kena cipratan gerimis atau ketumpahan air minum, airnya langsung meluncur kayak di daun talas.',
     icon: 'ShieldCheck',
     tag: 'Aman Gerimis'
   },
   {
-    title: 'Pilihan Warna Pastel Manis',
-    desc: 'Kombinasi warna cerah fresh (Dusty Pink, Lilac, Cream, Peach) yang match dengan seragam dan OOTD kampus kekinian.',
+    title: 'Warna Pastel Super Gemas',
+    desc: 'Pilihan warnanya estetik (Dusty Pink, Lilac, Sage Green, dll). Gampang banget di-mix and match sama seragam atau outfit nongkrong.',
     icon: 'Palette',
-    tag: 'Estetik'
+    tag: 'OOTD Ready'
   },
   {
     title: 'Konveksi Tangan Pertama',
-    desc: 'Diproduksi langsung di Tasikmalaya. Kontrol jahitan dobel rapi dengan harga jujur langsung dari pengrajin.',
+    desc: 'Produksi asli lokal Tasikmalaya. Jahitan dobel yang kuat buat bawa buku tebal, plus harga jujur tanpa tambahan markup toko mall.',
     icon: 'Scissors',
-    tag: 'Tasikmalaya Asli'
+    tag: 'Harga Pabrik'
   }
 ];
