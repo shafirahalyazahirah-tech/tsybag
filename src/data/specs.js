@@ -52,7 +52,7 @@ export const capacityItems = [
 export const coreFeatures = [
   {
     title: 'Super Ringan 250 Gram',
-    desc: 'Nggak nyampe berat apel! Pundak auto bebas pegal walau tas dipakai keliling kampus atau sekolah seharian.',
+    desc: 'Beratnya nggak nyampe 250 Gram loh, jadi pundak auto bebas pegal walau tas dipakai keliling kampus atau sekolah seharian.',
     icon: 'Feather',
     tag: 'Bahu Anti Pegal'
   },
