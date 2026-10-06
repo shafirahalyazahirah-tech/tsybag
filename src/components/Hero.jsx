@@ -30,21 +30,17 @@ export default function Hero({ onSelectImage }) {
             {/* Target Audience Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pastel-rose-100 border border-pastel-rose-200 text-pastel-rose-700 text-xs font-bold tracking-wide shadow-sm">
               <Sparkles className="w-3.5 h-3.5 text-pastel-rose-600" />
-              <span>Koleksi Manis Siswi &amp; Mahasiswi Kekinian</span>
+              <span>Tas Ransel Lokal Terlaris Pilihan Siswi &amp; Mahasiswi Indonesia</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.2]">
-              Pundak Bebas Pegal, Bobot Enteng 250g, &amp; Tetap{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pastel-rose-500 via-rose-600 to-pastel-lavender-500">
-                Estetik Seharian
-              </span>{' '}
-              di Sekolah &amp; Kampus!
+              Bawa Beban Kuliah/Sekolah Tanpa Pegal! <span className="text-transparent bg-clip-text bg-gradient-to-r from-pastel-rose-500 via-rose-600 to-pastel-lavender-500">Tetap Modis &amp; Penuh Gaya!</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Ransel dan tas wanita langsung dari tangan pertama konveksi Kota Tasikmalaya. Menggunakan bahan <strong>Parasut JN tebal water-repellent</strong> yang ringan hanya 250 gram, pilihan warna cerah manis, serta seri kompartemen berbusa laptop 14 inch. Harga jujur bersahabat mulai <strong>Rp 40 ribuan</strong>!
+              Langsung dari <strong>tangan pertama konveksi Kota Tasikmalaya</strong>, kami menghadirkan ransel wanita pilihan terbaik. Dibuat dari <strong>bahan Parasut JN tebal water-repellent</strong> berkualitas tinggi yang super ringan (hanya 250 gram), memiliki pilihan warna pastel cerah yang manis, serta dilengkapi kompartemen berbusa aman untuk laptop 14 inch. Kualitas butik dengan <strong>harga jujur bersahabat mulai Rp 40 ribuan!</strong>
             </p>
 
             {/* Trust Proof Badges */}
