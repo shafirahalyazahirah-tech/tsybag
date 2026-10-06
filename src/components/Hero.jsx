@@ -37,7 +37,7 @@ export default function Hero({ onSelectImage }) {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.2]">
               Pundak Bebas Pegal, Bobot Enteng 250g, &amp; Tetap{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-pastel-rose-500 via-rose-600 to-pastel-lavender-500">
-                Estetik Pastel Seharian
+                Estetik Seharian
               </span>{' '}
               di Sekolah &amp; Kampus!
             </h1>
