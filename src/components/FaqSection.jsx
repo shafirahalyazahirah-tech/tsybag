@@ -13,17 +13,17 @@ export default function FaqSection() {
   return (
     <section className="py-14 md:py-20 bg-pastel-cream/60 border-t border-rose-100">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
-        
+
         {/* Section Header */}
         <div className="text-center mb-10">
           <span className="text-xs font-extrabold uppercase tracking-wider text-slate-600 bg-white px-3.5 py-1.5 rounded-full border border-slate-200">
-            Pertanyaan Umum Seputar Belanja
+            Info Seputar Order
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3 tracking-tight">
-            Frequently Asked Questions (FAQ)
+            Yang Paling Sering Ditanyain (FAQ)
           </h2>
           <p className="text-sm text-slate-600 mt-2">
-            Jawaban lengkap seputar kapasitas tas, bahan, metode COD pelajar, dan jadwal live.
+            Jawaban cepat buat kamu soal ukuran tas, detail bahan, cara bayar COD, sampai jadwal live.
           </p>
         </div>
 
@@ -32,7 +32,7 @@ export default function FaqSection() {
           {faqs.map((faq, idx) => {
             const isOpen = openIndex === idx;
             return (
-              <div 
+              <div
                 key={idx}
                 className="bg-white rounded-2xl border border-rose-100 overflow-hidden shadow-soft transition-all duration-200"
               >
@@ -45,10 +45,9 @@ export default function FaqSection() {
                     <HelpCircle className="w-4 h-4 text-rose-500 flex-shrink-0" />
                     <span>{faq.q}</span>
                   </span>
-                  <ChevronDown 
-                    className={`w-4 h-4 text-rose-500 transition-transform duration-200 flex-shrink-0 ${
-                      isOpen ? 'transform rotate-180' : ''
-                    }`}
+                  <ChevronDown
+                    className={`w-4 h-4 text-rose-500 transition-transform duration-200 flex-shrink-0 ${isOpen ? 'transform rotate-180' : ''
+                      }`}
                   />
                 </button>
 
@@ -65,17 +64,17 @@ export default function FaqSection() {
         {/* Still Have Questions Box */}
         <div className="mt-8 text-center bg-white border border-emerald-200 rounded-2xl p-5 shadow-soft flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
-            <h4 className="font-extrabold text-sm text-slate-900">Punya Pertanyaan Lain Seputar Ukuran &amp; Stok?</h4>
-            <p className="text-xs text-slate-600">Admin CS konveksi kami siap membalas ramah dan cepat.</p>
+            <h4 className="font-extrabold text-sm text-slate-900">Masih ragu soal ukuran tas atau stok warna?</h4>
+            <p className="text-xs text-slate-600">Nggak usah sungkan chat, admin kita fast response dan siap bantu.</p>
           </div>
-          <a 
+          <a
             href={channels.whatsappCS}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
-            <span>Chat CS (+62 815-6495-9640)</span>
+            <span>Chat Admin (+62 815-6495-9640)</span>
           </a>
         </div>
 
