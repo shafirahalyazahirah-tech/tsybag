@@ -1,59 +1,29 @@
-import React, { useState } from 'react';
-import ProductCard from './ProductCard';
-import { products, productCategories } from '../data/products';
+<div class="hero-content-wrapper">
+  <!-- Badge/Koleksi Atas -->
+  <div class="inline-flex items-center gap-2 bg-pink-50 border border-pink-200 px-3 py-1 rounded-full text-pink-600 text-xs md:text-sm font-medium mb-4">
+    <span>✨</span> Koleksi Tas Ransel Terlaris Pilihan Siswi & Mahasiswi Indonesia
+  </div>
 
-export default function ProductCatalog({ onSelectImage }) {
-  const [activeTab, setActiveTab] = useState('all');
+  <!-- Headline Utama -->
+  <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+    Bawa Beban Kuliah/Sekolah Tanpa Pegal! Ransel Super Ringan 250g, Anti Air, & Tetap Estetik Seharian.
+  </h1>
 
-  const filteredProducts = activeTab === 'all'
-    ? products
-    : products.filter(p => p.category === activeTab);
+  <!-- Paragraf Deskripsi -->
+  <p class="text-gray-600 text-base md:text-lg leading-relaxed mb-6">
+    Langsung dari <strong>tangan pertama konveksi Kota Tasikmalaya</strong>, kami menghadirkan ransel wanita pilihan terbaik. Dibuat dari <strong>bahan Parasut JN tebal water-repellent</strong> berkualitas tinggi yang super ringan (hanya 250 gram), memiliki pilihan warna pastel cerah yang manis, serta dilengkapi kompartemen berbusa aman untuk laptop 14 inch. Kualitas butik dengan <strong>harga jujur bersahabat mulai Rp 40 ribuan!</strong>
+  </p>
 
-  return (
-    <section id="katalog" className="py-14 md:py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-10">
-          <span className="text-xs font-extrabold uppercase tracking-wider text-rose-600 bg-rose-50 px-3.5 py-1.5 rounded-full border border-rose-200">
-            Katalog Real Pict TSY.bag
-          </span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3 tracking-tight">
-            Pilih Ransel Estetik Sesuai Kebutuhanmu
-          </h2>
-          <p className="text-sm sm:text-base text-slate-600 mt-2">
-            Mulai dari ransel super ringan 250g buat sekolah, tas laptop 14 inch buat ngampus, sampai sling bag lucu buat hangout. Semua ready stock, bebas COD, dan dikirim langsung dari konveksi Tasikmalaya.
-          </p>
-
-          {/* Category Filter Tabs */}
-          <div className="flex flex-wrap justify-center gap-2 mt-7">
-            {productCategories.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => setActiveTab(cat.id)}
-                className={`px-4 sm:px-5 py-2.5 rounded-full text-xs font-bold transition-all ${activeTab === cat.id
-                    ? 'bg-slate-900 text-white shadow-md'
-                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                  }`}
-              >
-                {cat.label}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-          {filteredProducts.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              onSelectImage={onSelectImage}
-            />
-          ))}
-        </div>
-
-      </div>
-    </section>
-  );
-}
+  <!-- Tombol Call to Action (CTA) -->
+  <div class="flex flex-wrap gap-3">
+    <a href="#shopee" class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-xl transition shadow-md flex items-center gap-2">
+      🛍️️ Checkout via Shopee (Bisa COD)
+    </a>
+    <a href="#tiktok" class="bg-gray-900 hover:bg-black text-white font-semibold px-6 py-3 rounded-xl transition shadow-md flex items-center gap-2">
+      🛒 Buka TikTok Shop (Keranjang Kuning)
+    </a>
+    <a href="#whatsapp" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow-md flex items-center gap-2">
+      💬 Tanya Real Pict via WhatsApp
+    </a>
+  </div>
+</div>
