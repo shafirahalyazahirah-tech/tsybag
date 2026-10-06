@@ -30,17 +30,17 @@ export default function Hero({ onSelectImage }) {
             {/* Target Audience Pill */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pastel-rose-100 border border-pastel-rose-200 text-pastel-rose-700 text-xs font-bold tracking-wide shadow-sm">
               <Sparkles className="w-3.5 h-3.5 text-pastel-rose-600" />
-              <span>Tas Ransel Lokal Terlaris Pilihan Siswi &amp; Mahasiswi Indonesia</span>
+              <span>Ransel Favorit Pelajar &amp; Mahasiswi</span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.2]">
-              Bawa Beban Kuliah/Sekolah Tanpa Pegal! <span className="text-transparent bg-clip-text bg-gradient-to-r from-pastel-rose-500 via-rose-600 to-pastel-lavender-500">Tetap Modis &amp; Penuh Gaya!</span>
+              Bawa Laptop &amp; Buku Nggak Pake Pegal. <span className="text-transparent bg-clip-text bg-gradient-to-r from-pastel-rose-500 via-rose-600 to-pastel-lavender-500">Tetap Estetik Buat OOTD!</span>
             </h1>
 
             {/* Sub-headline */}
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Langsung dari <strong>tangan pertama konveksi Kota Tasikmalaya</strong>, kami menghadirkan ransel wanita pilihan terbaik. Dibuat dari <strong>bahan Parasut JN tebal water-repellent</strong> berkualitas tinggi yang super ringan (hanya 250 gram), memiliki pilihan warna pastel cerah yang manis, serta dilengkapi kompartemen berbusa aman untuk laptop 14 inch. Kualitas butik dengan <strong>harga jujur bersahabat mulai Rp 40 ribuan!</strong>
+              Produksi langsung dari konveksi Tasikmalaya. Ransel bahan <strong>Parasut JN tebal</strong> ini super ringan (cuma 250 gram!) dan tahan cipratan air. Dilengkapi slot laptop 14 inch berbusa tebal dengan pilihan warna pastel yang lucu. Kualitas butik, <strong>harga pabrik mulai 40 ribuan aja!</strong>
             </p>
 
             {/* Trust Proof Badges */}
@@ -48,22 +48,22 @@ export default function Hero({ onSelectImage }) {
               <div className="flex items-center gap-1.5 bg-amber-50 px-3 py-1.5 rounded-full border border-amber-200 text-amber-900">
                 <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
                 <span className="font-bold">4.65 / 5.0</span>
-                <span className="text-amber-700">(14.375+ Ulasan Shopee)</span>
+                <span className="text-amber-700">(14.375+ Review)</span>
               </div>
 
               <div className="flex items-center gap-1.5 bg-rose-50 px-3 py-1.5 rounded-full border border-rose-200 text-rose-800">
                 <ShieldCheck className="w-3.5 h-3.5 text-rose-600" />
-                <span>Shopee Star+ Terverifikasi</span>
+                <span>Shopee Star+ Seller</span>
               </div>
 
               <div className="flex items-center gap-1.5 bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200 text-emerald-800">
                 <Truck className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Bisa Bayar COD Tanpa Rekening</span>
+                <span>Bebas Bayar di Tempat (COD)</span>
               </div>
 
               <div className="flex items-center gap-1.5 bg-sky-50 px-3 py-1.5 rounded-full border border-sky-200 text-sky-800">
                 <Clock className="w-3.5 h-3.5 text-sky-600" />
-                <span>Order s.d 17.00 Dikirim Hari Ini</span>
+                <span>Kirim Dihari yang Sama (Max 17.00)</span>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ export default function Hero({ onSelectImage }) {
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-[#ee4d2d] hover:bg-[#d73213] shadow-md shadow-orange-500/20 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base"
               >
                 <ShoppingBag className="w-4 h-4" />
-                <span>Order di Shopee Star+ (Bisa COD)</span>
+                <span>Checkout di Shopee (Bisa COD)</span>
               </a>
 
               <a
@@ -86,7 +86,7 @@ export default function Hero({ onSelectImage }) {
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-slate-900 hover:bg-black shadow-md shadow-slate-900/15 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base"
               >
                 <Radio className="w-4 h-4 text-rose-400" />
-                <span>Buka TikTok Shop (Keranjang Kuning)</span>
+                <span>Checkout di TikTok Shop</span>
               </a>
 
               <a
@@ -97,7 +97,7 @@ export default function Hero({ onSelectImage }) {
                 title={`Hubungi Admin CS ${channels.phone}`}
               >
                 <MessageCircle className="w-4 h-4 text-emerald-600" />
-                <span>Tanya Real Pict WA</span>
+                <span>Minta Real Pict Admin</span>
               </a>
             </div>
 
@@ -124,16 +124,16 @@ export default function Hero({ onSelectImage }) {
 
                 <div className="absolute bottom-4 left-4 right-4 text-white">
                   <p className="text-[11px] uppercase tracking-wider font-extrabold text-pastel-rose-300">
-                    Model: TSY Megumi Pastel (250 Gram)
+                    Model: TSY Megumi Pastel
                   </p>
                   <p className="text-sm font-bold text-white/95">
-                    Enteng &amp; Nyaman Dipakai Sekolah maupun Kuliah Seharian
+                    Bawaan berat tetap nyaman dipakai seharian
                   </p>
                 </div>
 
                 <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[11px] font-bold text-slate-700 shadow flex items-center gap-1">
                   <Eye className="w-3 h-3 text-rose-500" />
-                  <span>Lihat Foto Jelas</span>
+                  <span>Zoom Foto</span>
                 </div>
               </div>
 
@@ -144,7 +144,7 @@ export default function Hero({ onSelectImage }) {
                 </div>
                 <div>
                   <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Bahan Parasut JN</p>
-                  <p className="text-xs font-extrabold text-slate-800">Tahan Cipratan Air</p>
+                  <p className="text-xs font-extrabold text-slate-800">Aman Kena Gerimis</p>
                 </div>
               </div>
 
@@ -154,8 +154,8 @@ export default function Hero({ onSelectImage }) {
                   <Feather className="w-4 h-4 text-emerald-600" />
                 </div>
                 <div>
-                  <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Bobot Ultra Enteng</p>
-                  <p className="text-xs font-extrabold text-slate-800">Hanya 250 Gram</p>
+                  <p className="text-[10px] text-slate-500 font-semibold uppercase tracking-wider">Super Ringan</p>
+                  <p className="text-xs font-extrabold text-slate-800">Cuma 250 Gram</p>
                 </div>
               </div>
 

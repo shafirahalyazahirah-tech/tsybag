@@ -4,11 +4,11 @@ import { channels } from '../data/channels';
 
 export default function MobileBottomBar() {
   return (
-    <nav 
-      aria-label="Aksi Cepat Belanja Mobile" 
+    <nav
+      aria-label="Navigasi Checkout Cepat"
       className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-rose-200 px-3 py-2.5 shadow-2xl sm:hidden flex items-center justify-between gap-2"
     >
-      <a 
+      <a
         href={channels.shopeeStore}
         target="_blank"
         rel="noopener noreferrer"
@@ -18,7 +18,7 @@ export default function MobileBottomBar() {
         <span>Shopee (COD)</span>
       </a>
 
-      <a 
+      <a
         href={channels.tiktokShop}
         target="_blank"
         rel="noopener noreferrer"
@@ -28,12 +28,12 @@ export default function MobileBottomBar() {
         <span>TikTok Shop</span>
       </a>
 
-      <a 
+      <a
         href={channels.whatsappCS}
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center p-2.5 rounded-xl text-white bg-emerald-600 shadow active:scale-[0.98] transition"
-        title="Chat WhatsApp CS"
+        title="Chat Admin buat tanya stok atau real pict"
       >
         <MessageCircle className="w-4 h-4" />
       </a>

@@ -7,8 +7,8 @@ export default function LiveTicker() {
   const { isLiveNow, currentSessionTitle, nextSessionTime, countdownText, wibTimeStr } = useLiveStatus();
 
   return (
-    <aside 
-      aria-label="Informasi Live Streaming TSY BAG"
+    <aside
+      aria-label="Info Live Streaming TSY BAG"
       className="bg-gradient-to-r from-rose-500 via-pastel-rose-500 to-rose-600 text-white text-xs md:text-sm py-2.5 px-4 font-medium shadow-sm transition-all"
     >
       <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
@@ -21,25 +21,25 @@ export default function LiveTicker() {
           ) : (
             <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-700/80 text-rose-100 font-bold text-[11px]">
               <Clock className="w-3 h-3" />
-              JADWAL LIVE RUTIN
+              JADWAL LIVE
             </span>
           )}
 
           <p className="text-white/95 text-xs sm:text-sm">
             {isLiveNow ? (
               <span>
-                <strong>{currentSessionTitle}</strong>: Nonton Spill Real Pict &amp; Klaim Voucher Diskon Live!
+                <strong>{currentSessionTitle}</strong>: Join live sekarang buat cek real pict &amp; rebutan vouchernya!
               </span>
             ) : (
               <span>
-                Live 2 Sesi Setiap Hari: <strong>14.30 WIB</strong> &amp; <strong>18.30 WIB</strong> • Sesi Berikutnya: {nextSessionTime} ({countdownText})
+                Live tiap jam <strong>14.30 WIB</strong> &amp; <strong>18.30 WIB</strong> • Next sesi: {nextSessionTime} ({countdownText})
               </span>
             )}
           </p>
         </div>
 
         <div className="hidden md:flex items-center gap-2">
-          <a 
+          <a
             href={channels.tiktokLive}
             target="_blank"
             rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default function LiveTicker() {
             TikTok Live
             <ExternalLink className="w-2.5 h-2.5 ml-0.5" />
           </a>
-          <a 
+          <a
             href={channels.shopeeLive}
             target="_blank"
             rel="noopener noreferrer"
