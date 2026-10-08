@@ -137,11 +137,11 @@ export default function Hero({ onSelectImage }) {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none"></div>
 
-                <div className="absolute bottom-4 left-4 right-4 text-white pointer-events-none">
-                  <p className="text-[11px] uppercase tracking-wider font-extrabold text-pastel-rose-300">
+                <div className="absolute bottom-3.5 left-3.5 sm:bottom-4 sm:left-4 max-w-[52%] sm:max-w-[58%] text-white pointer-events-none">
+                  <span className="inline-block px-2 py-0.5 rounded-md bg-black/40 backdrop-blur-sm text-[10px] uppercase tracking-wider font-extrabold text-pastel-rose-300 mb-1">
                     Model: TSY Megumi Pastel
-                  </p>
-                  <p className="text-sm font-bold text-white/95">
+                  </span>
+                  <p className="text-xs sm:text-sm font-bold text-white/95 leading-snug drop-shadow">
                     Bawaan berat tetap nyaman dipakai seharian
                   </p>
                 </div>

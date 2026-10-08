@@ -13,6 +13,7 @@ import ChannelSection from './components/ChannelSection';
 import Footer from './components/Footer';
 import MobileBottomBar from './components/MobileBottomBar';
 import ImageModal from './components/ImageModal';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -70,6 +71,9 @@ export default function App() {
         selectedImage={selectedImage} 
         onClose={() => setSelectedImage(null)} 
       />
+
+      {/* 15. Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
