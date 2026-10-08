@@ -19,6 +19,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#fcfbf9] text-slate-800 font-sans antialiased selection:bg-rose-200 selection:text-rose-900 flex flex-col">
+      {/* Skip to Content for Accessibility */}
+      <a href="#katalog" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2 focus:bg-rose-600 focus:text-white focus:rounded-lg focus:shadow-lg focus:font-bold focus:text-xs">
+        Lewati ke Katalog Produk
+      </a>
+
       {/* 1. Dynamic Live Streaming Ticker (14.30 & 18.30 WIB) */}
       <LiveTicker />
 

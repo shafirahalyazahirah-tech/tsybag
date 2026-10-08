@@ -92,6 +92,7 @@ export default function ProblemSolution() {
             href={channels.shopeeStore}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Cek promo ransel TSY BAG di toko Shopee Star"
             className="px-6 py-3.5 rounded-xl bg-rose-500 hover:bg-rose-600 text-white font-bold text-sm whitespace-nowrap shadow-lg shadow-rose-500/30 transition flex items-center gap-2"
           >
             <span>Cek Promonya di Shopee</span>

@@ -20,17 +20,29 @@ export default function ProductCard({ product, onSelectImage }) {
 
       {/* Product Image Frame */}
       <div
-        className="relative h-64 sm:h-72 overflow-hidden bg-slate-100 cursor-pointer"
+        role="button"
+        tabIndex={0}
+        aria-label={`Perbesar foto ${product.name}`}
+        className="relative h-64 sm:h-72 overflow-hidden bg-slate-100 cursor-pointer focus:outline-none focus:ring-4 focus:ring-rose-400"
         onClick={() => onSelectImage(product.image)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            onSelectImage(product.image);
+          }
+        }}
       >
         <img
           src={product.image}
           alt={product.name}
+          width="400"
+          height="300"
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
 
         {/* Top Badges */}
-        <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+        <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none">
           <span className={`text-[10px] sm:text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm ${getTagClasses(product.tagVariant)}`}>
             {product.tag}
           </span>
@@ -118,6 +130,7 @@ export default function ProductCard({ product, onSelectImage }) {
             href={product.shopeeUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`Checkout ${product.name} di Shopee Star TSY BAG (Bisa COD)`}
             className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs sm:text-sm font-bold text-white bg-[#ee4d2d] hover:bg-[#d73213] transition shadow-sm hover:shadow"
           >
             <ShoppingBag className="w-4 h-4" />
@@ -130,6 +143,7 @@ export default function ProductCard({ product, onSelectImage }) {
               href={product.tiktokUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Beli ${product.name} di TikTok Shop TSY BAG`}
               className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs font-bold text-white bg-slate-900 hover:bg-black transition shadow-sm"
             >
               <Radio className="w-3.5 h-3.5 text-rose-400" />
@@ -140,6 +154,7 @@ export default function ProductCard({ product, onSelectImage }) {
               href={product.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Tanya stok atau real pict ${product.name} ke Admin WhatsApp`}
               className="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl text-xs font-bold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 transition"
               title="Tanya stok atau minta real pict via WhatsApp"
             >

@@ -80,7 +80,7 @@ export function useLiveStatus() {
     }
 
     calculateLive();
-    const interval = setInterval(calculateLive, 1000);
+    const interval = setInterval(calculateLive, 10000);
     return () => clearInterval(interval);
   }, []);
 

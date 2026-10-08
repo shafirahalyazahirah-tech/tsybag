@@ -24,6 +24,9 @@ export default function ImageModal({ selectedImage, onClose }) {
 
   return (
     <div
+      role="dialog"
+      aria-modal="true"
+      aria-label="Tampilan foto produk resolusi penuh"
       className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm p-4 flex items-center justify-center animate-fadeIn"
       onClick={onClose}
     >
@@ -39,7 +42,8 @@ export default function ImageModal({ selectedImage, onClose }) {
 
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 hover:bg-white text-slate-900 font-bold flex items-center justify-center shadow-lg transition"
+          aria-label="Tutup foto perbesar (Esc)"
+          className="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 hover:bg-white text-slate-900 font-bold flex items-center justify-center shadow-lg transition focus:outline-none focus:ring-2 focus:ring-rose-500"
           title="Tutup Foto (Esc)"
         >
           <X className="w-5 h-5" />

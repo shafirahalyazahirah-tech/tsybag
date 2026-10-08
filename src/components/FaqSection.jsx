@@ -37,9 +37,11 @@ export default function FaqSection() {
                 className="bg-white rounded-2xl border border-rose-100 overflow-hidden shadow-soft transition-all duration-200"
               >
                 <button
+                  id={`faq-btn-${idx}`}
                   onClick={() => toggleFaq(idx)}
-                  className="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-sm sm:text-base text-slate-900 hover:text-rose-600 transition"
+                  className="w-full text-left px-5 py-4 flex items-center justify-between gap-4 font-bold text-sm sm:text-base text-slate-900 hover:text-rose-600 transition focus:outline-none focus:ring-2 focus:ring-rose-400"
                   aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${idx}`}
                 >
                   <span className="flex items-center gap-2.5">
                     <HelpCircle className="w-4 h-4 text-rose-500 flex-shrink-0" />
@@ -52,7 +54,12 @@ export default function FaqSection() {
                 </button>
 
                 {isOpen && (
-                  <div className="px-5 pb-4 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-rose-50">
+                  <div
+                    id={`faq-answer-${idx}`}
+                    role="region"
+                    aria-labelledby={`faq-btn-${idx}`}
+                    className="px-5 pb-4 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-rose-50"
+                  >
                     <p>{faq.a}</p>
                   </div>
                 )}
@@ -71,6 +78,7 @@ export default function FaqSection() {
             href={channels.whatsappCS}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`Chat Admin WhatsApp TSY BAG (${channels.phone})`}
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />

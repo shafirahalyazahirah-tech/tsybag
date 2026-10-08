@@ -5,13 +5,14 @@ import { channels } from '../data/channels';
 export default function MobileBottomBar() {
   return (
     <nav
-      aria-label="Navigasi Checkout Cepat"
-      className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-rose-200 px-3 py-2.5 shadow-2xl sm:hidden flex items-center justify-between gap-2"
+      aria-label="Navigasi Checkout Cepat Mobile"
+      className="fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-rose-200 px-3 pt-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))] shadow-2xl sm:hidden flex items-center justify-between gap-2"
     >
       <a
         href={channels.shopeeStore}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Buka Toko Shopee TSY BAG (COD)"
         className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-2 rounded-xl text-xs font-bold text-white bg-[#ee4d2d] shadow active:scale-[0.98] transition"
       >
         <ShoppingBag className="w-3.5 h-3.5" />
@@ -22,6 +23,7 @@ export default function MobileBottomBar() {
         href={channels.tiktokShop}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Buka Katalog TikTok Shop TSY BAG"
         className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-2 rounded-xl text-xs font-bold text-white bg-slate-900 shadow active:scale-[0.98] transition"
       >
         <Radio className="w-3.5 h-3.5 text-rose-400" />
@@ -32,6 +34,7 @@ export default function MobileBottomBar() {
         href={channels.whatsappCS}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label={`Chat Admin WhatsApp TSY BAG (${channels.phone})`}
         className="flex items-center justify-center p-2.5 rounded-xl text-white bg-emerald-600 shadow active:scale-[0.98] transition"
         title="Chat Admin buat tanya stok atau real pict"
       >

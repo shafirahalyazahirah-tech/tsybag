@@ -73,6 +73,7 @@ export default function Hero({ onSelectImage }) {
                 href={channels.shopeeStore}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Checkout langsung di Shopee Star TSY BAG dengan sistem COD"
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-[#ee4d2d] hover:bg-[#d73213] shadow-md shadow-orange-500/20 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base"
               >
                 <ShoppingBag className="w-4 h-4" />
@@ -83,6 +84,7 @@ export default function Hero({ onSelectImage }) {
                 href={channels.tiktokShop}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Checkout di katalog TikTok Shop TSY BAG"
                 className="flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-white bg-slate-900 hover:bg-black shadow-md shadow-slate-900/15 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base"
               >
                 <Radio className="w-4 h-4 text-rose-400" />
@@ -93,6 +95,7 @@ export default function Hero({ onSelectImage }) {
                 href={channels.whatsappCS}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Minta foto real pict ke Customer Service WhatsApp (${channels.phone})`}
                 className="flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 transition-all text-sm sm:text-base"
                 title={`Hubungi Admin CS ${channels.phone}`}
               >
@@ -111,18 +114,30 @@ export default function Hero({ onSelectImage }) {
               <div className="absolute -inset-3 bg-gradient-to-tr from-pastel-rose-200 via-pastel-lavender-200 to-pastel-peach-200 rounded-3xl transform rotate-2 blur-sm"></div>
 
               <div
-                className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white cursor-pointer group bg-slate-100"
+                role="button"
+                tabIndex={0}
+                aria-label="Klik untuk memperbesar foto model ransel TSY Megumi"
+                className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white cursor-pointer group bg-slate-100 focus:outline-none focus:ring-4 focus:ring-rose-400"
                 onClick={() => onSelectImage('/assets/hero_student.jpg')}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelectImage('/assets/hero_student.jpg');
+                  }
+                }}
               >
                 <img
                   src="/assets/hero_student.jpg"
                   alt="Siswi dan mahasiswi membawa ransel TSY Megumi cerah di kampus"
+                  width="600"
+                  height="720"
+                  fetchPriority="high"
                   className="w-full h-[400px] sm:h-[480px] object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none"></div>
 
-                <div className="absolute bottom-4 left-4 right-4 text-white">
+                <div className="absolute bottom-4 left-4 right-4 text-white pointer-events-none">
                   <p className="text-[11px] uppercase tracking-wider font-extrabold text-pastel-rose-300">
                     Model: TSY Megumi Pastel
                   </p>

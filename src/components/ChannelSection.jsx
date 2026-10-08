@@ -50,6 +50,7 @@ export default function ChannelSection() {
               href={channels.shopeeStore}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Kunjungi toko Shopee Star TSY BAG dan checkout sistem COD"
               className="mt-6 w-full py-3.5 px-4 rounded-xl bg-[#ee4d2d] hover:bg-[#d73213] text-white font-bold text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-sm"
             >
               <span>Checkout di Shopee</span>
@@ -86,6 +87,7 @@ export default function ChannelSection() {
               href={channels.tiktokShop}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Kunjungi etalase resmi TikTok Shop TSY BAG"
               className="mt-6 w-full py-3.5 px-4 rounded-xl bg-slate-900 hover:bg-black text-white font-bold text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-sm"
             >
               <span>Checkout di TikTok Shop</span>
@@ -122,6 +124,7 @@ export default function ChannelSection() {
               href={channels.whatsappCS}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Hubungi Customer Service WhatsApp TSY BAG (${channels.phone})`}
               className="mt-6 w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-sm"
             >
               <span>Chat Admin WhatsApp</span>

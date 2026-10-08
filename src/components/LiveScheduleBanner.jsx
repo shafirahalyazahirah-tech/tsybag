@@ -52,6 +52,7 @@ export default function LiveScheduleBanner() {
                 href={channels.tiktokLive}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Tonton sesi live streaming TSY BAG di TikTok Live"
                 className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-slate-900 hover:bg-black transition shadow-sm"
               >
                 <Radio className="w-3.5 h-3.5 text-rose-400" />
@@ -62,6 +63,7 @@ export default function LiveScheduleBanner() {
                 href={channels.shopeeLive}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Tonton sesi live streaming TSY BAG di Shopee Live"
                 className="flex-1 md:flex-none inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-[#ee4d2d] hover:bg-[#d73213] transition shadow-sm"
               >
                 <Radio className="w-3.5 h-3.5" />
@@ -130,6 +132,7 @@ export default function LiveScheduleBanner() {
               href={`https://wa.me/${channels.whatsappNumber}?text=Halo%20Admin%20TSY.bag%2C%20kabarin%20aku%20ya%20kalau%20live%20jam%2014.30%20atau%2018.30%20udah%20mulai`}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Minta pengingat sesi live streaming melalui WhatsApp Admin (${channels.phone})`}
               className="inline-flex items-center gap-1.5 font-bold text-emerald-700 hover:text-emerald-800 transition whitespace-nowrap bg-emerald-50 px-3 py-1.5 rounded-lg border border-emerald-200"
             >
               <span>Minta Reminder via WA ({channels.phone}) →</span>

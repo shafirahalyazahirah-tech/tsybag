@@ -26,12 +26,16 @@ export default function ProductCatalog({ onSelectImage }) {
           </p>
 
           {/* Category Filter Tabs */}
-          <div className="flex flex-wrap justify-center gap-2 mt-7">
+          <div role="tablist" aria-label="Filter kategori produk" className="flex flex-wrap justify-center gap-2 mt-7">
             {productCategories.map((cat) => (
               <button
                 key={cat.id}
+                role="tab"
+                id={`tab-${cat.id}`}
+                aria-selected={activeTab === cat.id}
+                aria-controls="product-grid"
                 onClick={() => setActiveTab(cat.id)}
-                className={`px-4 sm:px-5 py-2.5 rounded-full text-xs font-bold transition-all ${activeTab === cat.id
+                className={`px-4 sm:px-5 py-2.5 rounded-full text-xs font-bold transition-all focus:outline-none focus:ring-2 focus:ring-rose-400 ${activeTab === cat.id
                     ? 'bg-slate-900 text-white shadow-md'
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                   }`}
@@ -43,7 +47,7 @@ export default function ProductCatalog({ onSelectImage }) {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+        <div id="product-grid" role="region" aria-live="polite" className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
           {filteredProducts.map((product) => (
             <ProductCard
               key={product.id}

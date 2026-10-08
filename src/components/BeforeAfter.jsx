@@ -126,6 +126,16 @@ export default function BeforeAfter() {
               <strong>Jembatan Solusinya Adalah TSY BAG:</strong> Menghubungkan kenyamanan bahan Parasut JN yang ringan dan tahan percikan air dengan estetika warna pastel kekinian, langsung dari konveksi tangan pertama Tasikmalaya.
             </span>
           </p>
+          <div className="mt-3 pt-3 border-t border-rose-100 flex justify-center">
+            <a
+              href="#katalog"
+              aria-label="Eksplor pilihan ransel di katalog produk"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-rose-600 hover:text-rose-700 transition"
+            >
+              <span>Eksplor Pilihan Koleksi TSY BAG</span>
+              <span>↓</span>
+            </a>
+          </div>
         </div>
 
       </div>
